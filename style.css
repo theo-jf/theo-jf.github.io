@@ -3,3 +3,9 @@ body   {
   margin: 0% 25%;
   background-color: #F8F3E5;
 }
+ article{display:inline-block}
+  .right{float:right}
+  header{color: #E16C61}
+  header{background-color: #F8F3E5}
+  footer{color: #E16C61}
+  footer{background-color: #F8F3E5}

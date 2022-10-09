@@ -4,10 +4,12 @@ import Scroll from 'react-scroll';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Box from '@mui/material/Box';
 
 // Navigation / header
 function App() {
   return (
+    <>
     <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
       <Container fluid>
         <Navbar.Brand href="#home">Theo Janke-Furman</Navbar.Brand>
@@ -17,7 +19,7 @@ function App() {
           </Nav>
           <Nav>
             <Nav.Item>
-              <Nav.Link onSelect={() => Scroll.scrollTo('homepage', {
+              <Nav.Link onSelect={() => Scroll.scrollTo('about', {
                                     smooth: true,
                                     offset: -70,
                                     duration: 500,
@@ -44,6 +46,13 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+      <Box height="5vh" className="divider" id="about" />
+        {/* about component */}
+      <Box height="5vh" className="divider" id="projects" />
+        {/* projects component */}
+      <Box height="5vh" className="divider" id="contact" />
+        {/* contact component */}
+    </>
   );
 }
 

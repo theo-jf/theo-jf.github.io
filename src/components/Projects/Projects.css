@@ -1,3 +1,17 @@
 .projects {
     text-align: center;
 }
+
+.aboutHeader {
+    margin-top: 0; 
+    margin-bottom: 30px; 
+    padding-left: 1rem; 
+    color: #292B2C;
+}
+
+.contactHeader {
+    color: #292B2C;
+    margin-top: -1%; 
+    margin-bottom: 0; 
+    padding-left: 1rem;
+}

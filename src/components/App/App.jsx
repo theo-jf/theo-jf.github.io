@@ -72,7 +72,7 @@ function App() {
     <Box height="0vh" className="divider" id="about" />
     <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="#home">Theo Janke-Furman</Navbar.Brand>
+        <Navbar.Brand href="#about">Theo Janke-Furman</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">  

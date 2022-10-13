@@ -4,3 +4,29 @@
     padding-left: 1rem; 
     color: white;
 }
+
+.linkedInLogo {
+    width: 100px;
+    transition: .3s;
+    filter: brightness(50%);
+}
+
+.emailLogo {
+    width: 100px;
+    margin-right: 50px;
+    margin-bottom: -23px;
+    transition: .3s;
+    filter: brightness(50%);
+}
+
+.linkedInLogo:hover {
+    cursor: pointer;
+    transition: .5s;
+    filter: brightness(100%);
+}
+
+.emailLogo:hover {
+    cursor: pointer;
+    transition: .5s;
+    filter: brightness(100%);
+}

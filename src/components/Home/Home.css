@@ -1,6 +1,17 @@
+.aboutSection {
+    color: white;
+}
+
 .projectsHeader {
     margin-top: -1%; 
     margin-bottom: 0; 
     padding-left: 1rem;
     color: white;
+}
+
+.rounded {
+    /* For animation: start at 30% in center and minimize to normal size in top right */
+    /* max-width: 30%; */
+    max-width: 20%;
+    min-width: 200px;
 }

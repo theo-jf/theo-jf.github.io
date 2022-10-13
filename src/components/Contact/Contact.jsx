@@ -11,7 +11,10 @@ export default function Contact() {
             display="flex"
             alignItems="center"
             justifyContent="center"
-            ></Box>
+            >
+            <img className="emailLogo" src="/images/email.png" />
+            <img className="linkedInLogo" src="/images/linkedIn2.png" />
+            </Box>
         </div>
     );
 }

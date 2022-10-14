@@ -3,6 +3,7 @@
 }
 
 .projectSection {
+    /* change to margins --> card length issue  */
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -12,6 +13,10 @@
     margin-bottom: 0; 
     padding-left: 1rem; 
     color: #292B2C;
+}
+
+.projectTitle {
+    padding-bottom: 20px;
 }
 
 .contactHeader {
@@ -30,10 +35,16 @@
     border-style: inset;
     /* display: flex; */
     margin: auto;
+    transition: .2s;
+}
+
+.projectImg:hover {
+    transition: .4s;
+    filter: brightness(60%);
 }
 
 .imgToCenter {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .centerComingSoon {

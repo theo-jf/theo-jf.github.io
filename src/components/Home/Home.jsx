@@ -76,7 +76,8 @@ export default function Home() {
             </Box>
         </Box>
         </div>
-        <Box height="10vh" className="divider" id="projects" />
+        <Box height="0vh" className="divider" id="projects"/>
+        <Box height="10vh" className="divider" />
     </div>
     );
 }

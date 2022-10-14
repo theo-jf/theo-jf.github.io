@@ -59,22 +59,30 @@ export default function Projects() {
 
     return (
         <>
-        <div>
+        <div id="projects">
         <h2 className="projectsHeader bg-dark">&#x2193; Projects &#x2193;</h2>
         <h2 className="aboutHeader bg-white">&#x2191; About &#x2191;</h2>
-        <Box height="5vh" className="divider transparent" />
+        <Box height="8vh" className="divider transparent" />
         <Grid className="projectSection" style={{overflow: "auto"}} justifyContent="space-evenly" height="75vh" container rowSpacing={5} columnSpacing={5}>
             {projectData.map((project, i) => (
                 <Grid key={i} item xs={12} md={6} lg={4}>
                     <CardContent className="projectContent">
-                        <h2>{project.title}</h2>
+                        <h2 className="projectTitle">{project.title}</h2>
                         <p>{project.description}</p>
                         <p>{project.tech != '' ? `Technology used: ${project.tech}` : null}</p>
                         <Grid container justifyContent="center" className="imgWrapper"
                         >
                             {i === 0 ? <p className="centerComingSoon">image coming soon</p> 
-                                                : (i === 3 || i === 4) ? <img className="projectImg" src={project.img}></img>
-                                                                       : <img className="projectImg imgToCenter" src={project.img}></img>}
+                                                : (i === 3 || i === 4) ? <div className="hoverContainer">
+                                                                            <a href={project.link} target="_blank">
+                                                                                <img className="projectImg" src={project.img}></img>
+                                                                            </a>
+                                                                         </div>
+                                                                       : <div className="hoverContainer">
+                                                                            <a href={project.link} target="_blank">
+                                                                                <img className="projectImg imgToCenter" src={project.img}></img>
+                                                                            </a>
+                                                                         </div>}                                                                       
                         </Grid>
                     </CardContent>
                 </Grid>

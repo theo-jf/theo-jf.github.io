@@ -1,4 +1,5 @@
 a {
+    /* to prevent warping from flex  */
     align-self: center;
 }
 

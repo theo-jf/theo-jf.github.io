@@ -1,5 +1,22 @@
 .aboutSection {
     color: white;
+    padding-top: 6.3vh;
+}
+
+.heading {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.aboutInfo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.description {
+    width: 100%;
+    /* max-width: 10%; */
 }
 
 .projectsHeader {
@@ -9,9 +26,28 @@
     color: white;
 }
 
+.welcome {
+    margin-bottom: -80px;
+    margin-right: 5vw;
+    font-size: 6vw;
+}
+
 .rounded {
     /* For animation: start at 30% in center and minimize to normal size in top right */
-    /* max-width: 30%; */
-    max-width: 20%;
     min-width: 200px;
+    width: 15vw;
+    align-self: center;
+    /* z-index : 10000; */
+}
+
+.list {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+ul {
+    display: inline-block;
 }

@@ -1,3 +1,7 @@
+a {
+    align-self: center;
+}
+
 .projectsSubHeader {
     margin-top: 0; 
     margin-bottom: 30px; 
@@ -9,12 +13,14 @@
     width: 100px;
     transition: .3s;
     filter: brightness(50%);
+    align-self: center;
 }
 
 .emailLogo {
     width: 100px;
     margin-right: 50px;
     margin-bottom: -23px;
+    align-self: center;
     transition: .3s;
     filter: brightness(50%);
 }
@@ -29,4 +35,10 @@
     cursor: pointer;
     transition: .5s;
     filter: brightness(100%);
+}
+
+#connectWithMe {
+    color: white;
+    margin-bottom: 100px;
+    margin-top: -100px;
 }

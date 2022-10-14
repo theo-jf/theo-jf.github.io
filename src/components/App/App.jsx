@@ -97,7 +97,7 @@ function App() {
     <Box height="0vh" className="divider" id="contact" />
       <Contact />
     <Box height="0vh" className="divider" />
-    <footer className="bg-light">
+    <footer className="bg-white">
       <div id="center">
       </div>
       <h5 className="text-muted updated">Updated October, 2022</h5>

@@ -76,36 +76,6 @@ export default function Home() {
             </Box>
         </Box>
         </div>
-            {/* <div className="list" id="languages">
-                <h3>Languages</h3>
-                <ul>
-                    <li>Javascript</li>
-                    <li>C#</li>
-                    <li>HTML/CSS</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
-            <div className="list" id="frameworksAndLibraries">
-                <h3>Frameworks / Libraries</h3>
-                <ul>
-                    <li>React</li>
-                    <li>Redux-Saga</li>
-                    <li>Node</li>
-                    <li>Express</li>
-                    <li>JQuery</li>
-                    <li>Material UI</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </div>
-            <div className="list" id="tools" display="inline-block">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Postgres</li>
-                    <li>Bash/Zsh</li>
-                </ul>
-            </div>
-        </div> */}
         <Box height="10vh" className="divider" id="projects" />
     </div>
     );

@@ -2,9 +2,14 @@
     text-align: center;
 }
 
+.projectSection {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .aboutHeader {
     margin-top: 0; 
-    margin-bottom: 30px; 
+    margin-bottom: 0; 
     padding-left: 1rem; 
     color: #292B2C;
 }
@@ -14,4 +19,39 @@
     margin-top: -1%; 
     margin-bottom: 0; 
     padding-left: 1rem;
+}
+
+.projectImg {
+    max-height: 400px;
+    max-width: 99%;
+    overflow: hidden;
+    border-width: 2px;
+    border-color: gainsboro;
+    border-style: inset;
+    /* display: flex; */
+    margin: auto;
+}
+
+.imgToCenter {
+    margin-top: 60px;
+}
+
+.centerComingSoon {
+    margin-top: 160px;
+}
+
+/* .imgWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+} */
+
+.projectContent {
+    background-color: #f8f9fa;
+    min-height: 618px;
+}
+
+.transparent {
+    background-color: rgba(0, 255, 255, 0);
 }

@@ -11,9 +11,9 @@ const projectData = [
                                       then save it to your library.
                                       Book Snoop tracks location and condition acquisition data, 
                                       and presents it to other users searching for the same book`, 
-                        tech: 'React, Redux-Saga, JavaScript, Google Maps Places API, Open Library API, PostgreSQL, HTML/CSS, Material UI, Node-Postgres, Express',
+                        tech: 'React, Redux-Saga, JavaScript, Node, Express, Google Maps Places API, Open Library API, Cloudinary, HTML/CSS, Material UI, PostgreSQL, Node-Postgres',
                         link: 'https://github.com/theo-jf/book_snoop',
-                        img: ''
+                        img: '/images/projectWireframes/Solo_Project/Book_Snoop_Screenshot5.png'
                     },
                     {
                         title: 'Prime Group Project',

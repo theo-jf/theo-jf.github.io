@@ -6,7 +6,7 @@ import './Projects.css'
 
 const projectData = [
                     {
-                        title: 'Book Snoop (In development)',
+                        title: 'Book Snoop',
                         description: `Prime solo project. Find an edition of a book using the search functionality, 
                                       then save it to your library.
                                       Book Snoop tracks location and condition acquisition data, 
@@ -72,7 +72,7 @@ export default function Projects() {
                         <p>{project.tech != '' ? `Technology used: ${project.tech}` : null}</p>
                         <Grid container justifyContent="center" className="imgWrapper"
                         >
-                            {(i === 3 || i === 4) ? <div className="hoverContainer">
+                            {(i === 0|| i === 3 || i === 4) ? <div className="hoverContainer">
                                                     <a href={project.link} target="_blank">
                                                         <img className="projectImg" src={project.img}></img>
                                                     </a>

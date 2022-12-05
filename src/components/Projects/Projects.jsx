@@ -73,7 +73,7 @@ export default function Projects() {
                         <p>{project.tech != '' ? `Technology used: ${project.tech}` : null}</p>
                         <Grid container justifyContent="center" className="imgWrapper"
                         >
-                            {(i === 0|| i === 3 || i === 4) ? <div className="hoverContainer">
+                            {(i === 0|| i === 1 || i === 3 || i === 4) ? <div className="hoverContainer">
                                                     <a href={project.link} target="_blank">
                                                         <img className="projectImg" src={project.img}></img>
                                                     </a>

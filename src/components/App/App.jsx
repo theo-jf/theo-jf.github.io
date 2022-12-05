@@ -100,7 +100,7 @@ function App() {
     <footer className="bg-white">
       <div id="center">
       </div>
-      <h5 className="text-muted updated">Updated October, 2022</h5>
+      <h5 className="text-muted updated">Updated December, 2022</h5>
     </footer>
     </>
   );

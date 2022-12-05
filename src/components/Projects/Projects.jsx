@@ -16,11 +16,12 @@ const projectData = [
                         img: '/images/projectWireframes/Solo_Project/Book_Snoop_Screenshot5.png'
                     },
                     {
-                        title: 'Prime Group Project',
-                        description: 'More details coming soon!', 
-                        tech: '',
-                        link: '',
-                        img: ''
+                        title: 'Levelrie',
+                        description: `Tinder for outfits! Group-made investor prototype created for client. Create an account, swipe right on an outfit to save it to your favorites or left to reject it. 
+                                      Users can search and delete from their favorites, globally search all admin-registered outfits and items, and add items to their cart from both views.`, 
+                        tech: 'React, Redux-Saga, JavaScript, Node, Express, Passport, Cloudinary, HTML/CSS, Material UI, PostgreSQL, Node-Postgres, React-Slick, React-Tinder-Card',
+                        link: 'https://github.com/theo-jf/Levelrie',
+                        img: '/images/projectWireframes/Levelrie/levelrie_ss.png'
                     },
                     {
                         title: 'Cat Gallery',

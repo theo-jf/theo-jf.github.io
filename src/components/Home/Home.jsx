@@ -5,7 +5,7 @@ import './Home.css'
 
 const languages = ['Javascript', 'C#', 'HTML/CSS', 'SQL'];
 const frameworksAndLibraries = ['React', 'Redux-Saga', 'Node', 'Express', 'JQuery', '.NET', 'EF Core', 'Material UI', 'Bootstrap'];
-const tools = ['Git', 'Postgres', 'Bash/Zsh', 'Vim'];
+const tools = ['Git', 'Postgres', 'Bash/Zsh', 'Vim', 'Figma'];
 
 export default function Home() {
 
